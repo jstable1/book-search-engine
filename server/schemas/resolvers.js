@@ -57,7 +57,7 @@ const resolvers = {
         if (context.user) {
           const user = await User.findByIdAndUpdate(
             { _id: context.user._id },
-            { $pull: { savedBooks: args.bookSchema.bookId } },
+            { $pull: { savedBooks: {bookId: args.bookId} } },
             { new: true }
             );
 
