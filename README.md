@@ -12,6 +12,7 @@ This application is a Google Books API search engine where users can save books.
   * CSS
 
 ## Screenshot
+<img width="1176" alt="Screen Shot 2022-05-21 at 9 39 08 PM" src="https://user-images.githubusercontent.com/95373448/169677446-094653f6-d837-44e0-a027-c3535f7c773f.png">
 
 ## Deployed Application
 https://damp-bayou-94433.herokuapp.com/
